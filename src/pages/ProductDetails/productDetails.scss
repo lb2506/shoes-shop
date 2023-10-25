@@ -1,0 +1,128 @@
+.productDetails {
+    padding: 70px 10% 5% 10%;
+    min-height: calc(100vh - 300px);
+    display: flex;
+
+    &__left,
+    &__right {
+        width: 50%;
+        margin-top: 50px;
+    }
+
+    &__left {
+        &-mainImage {
+            width: 100%;
+        }
+
+        &-variations {
+            display: flex;
+            flex-direction: column;
+
+            .variations {
+
+                &__title {
+                    text-transform: uppercase;
+                    margin: 10px 0 20px 0;
+                    color: #111B47;
+                }
+
+                &__images {
+                    display: flex;
+                    gap: 10px;
+
+                    img {
+                        width: 120px;
+                    }
+                }
+
+            }
+        }
+    }
+
+    &__right {
+        padding-left: 2vw;
+
+        &-tags {
+            text-transform: uppercase;
+            font-size: 13px;
+            font-weight: bold;
+            color: #111B47;
+        }
+
+        &-title {
+            text-transform: uppercase;
+            margin: 20px 0 10px 0;
+            font-size: 40px;
+            color: #111B47;
+        }
+
+        &-price {
+            font-weight: bold;
+            font-size: 25px;
+            color: #111B47;
+        }
+
+        &-description {
+            padding: 30px 0;
+            border-top: 1px solid #CDD1D4;
+            border-bottom: 1px solid #CDD1D4;
+            margin: 30px 0;
+            font-size: 12px;
+            color: #6F7CB2;
+        }
+
+        &-options {
+            padding-bottom: 30px;
+            border-bottom: 1px solid #CDD1D4;
+            margin-bottom: 30px;
+
+            .options {
+                &__size, &__color {
+                    color: #111B47;
+                }
+
+                &__values {
+                    margin: 10px 0 20px 0;
+                    height: 35px;
+                    width: 150px;
+                    color: #111B47;
+
+                    &:last-child{
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+
+        &-buttons {
+            display: flex;
+            gap: 20px;
+
+            .buttons {
+
+                &__addToCart,
+                &__addToWishList {
+                    height: 35px;
+                    width: 150px;
+                }
+
+                &__addToCart {
+                    background-color: #111B47;
+                    color: #FFFFFF;
+                    border: 1px solid #111B47;
+                    border-radius: 2px;
+                    cursor: pointer;
+                }
+
+                &__addToWishList {
+                    background-color: #FFFFFF;
+                    color: #111B47;
+                    border: 1px solid #111B47;
+                    border-radius: 2px;
+                    cursor: pointer;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

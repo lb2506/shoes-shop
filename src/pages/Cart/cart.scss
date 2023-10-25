@@ -1,0 +1,158 @@
+.cart {
+    padding: 70px 10% 5% 10%;
+    background-color: rgb(243, 245, 254);
+    min-height: calc(100vh - 300px);
+
+    &__container {
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5%;
+        border-radius: 20px;
+        box-shadow: -5px -5px 9px rgba(255, 255, 255, 0.45), 5px 5px 9px rgba(94, 104, 121, 0.3);
+        position: relative;
+
+        &-left {
+            padding: 2% 5%;
+            width: 100%;
+
+            .left {
+                &__title {
+                    margin-bottom: 5%;
+                }
+
+                &__item {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 25px 0;
+                    border-top: 1px solid #CDD1D4;
+
+                    &:last-child {
+                        border-bottom: 1px solid #CDD1D4;
+                    }
+
+                    &-picture {
+                        object-fit: contain;
+                        width: 60px;
+                        height: 100%
+                    }
+
+                    &-infos {
+                        max-width: 50%;
+                    }
+
+                    &-quantity {
+                        display: flex;
+                        align-items: center;
+
+                        .quantity {
+                            &__number {
+                                margin: 0 10px;
+                            }
+
+                            &__increase,
+                            &__decrease {
+                                width: 20px;
+                                aspect-ratio: 1/1;
+                                border: none;
+                                background-color: transparent;
+                                font-size: 20px;
+                            }
+                        }
+                    }
+
+                    &-delete {
+                        background-color: transparent;
+                        border: none;
+                    }
+
+                }
+
+                &__emptyCart {
+                    color: #CDD1D4;
+                    font-style: italic;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+            }
+        }
+
+        &-right {
+            background-color: #E7ECFF;
+            padding: 3%;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            position: relative;
+            min-width: 300px;
+
+            .right {
+
+                &__title {
+                    margin: 10% 0;
+                }
+
+                &__resume {
+                    display: flex;
+                    justify-content: space-between;
+                    border-top: 1px solid #CDD1D4;
+                    padding-top: 25px;
+                    font-weight: bold;
+                }
+
+                &__adress {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    margin: 25px 0;
+
+                    &-title {
+                        font-weight: bold;
+                    }
+                }
+
+                &__shipping {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+
+                    &-title {
+                        font-weight: bold;
+                    }
+
+                    &-input {
+                        height: 35px;
+                    }
+                }
+
+                &__total {
+                    display: flex;
+                    justify-content: space-between;
+                    border-top: 1px solid #CDD1D4;
+                    padding-top: 25px;
+                    margin-top: 50px;
+                    font-weight: bold;
+                }
+
+                &__checkout {
+                    width: 100%;
+                    background-color: #111B47;
+                    color: #FFFFFF;
+                    padding: 10px 40px;
+                    border: 1px solid #111B47;
+                    border-radius: 2px;
+                    cursor: pointer;
+                    margin-top: 50px;
+                }
+
+            }
+        }
+    }
+
+
+
+
+
+}

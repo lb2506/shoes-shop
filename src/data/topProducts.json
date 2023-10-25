@@ -1,0 +1,20 @@
+[
+    {
+        "id":"1",
+        "title": "Produit 1",
+        "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.",
+        "price": 20
+    },
+    {
+        "id":"2",
+        "title": "Produit 2",
+        "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.",
+        "price": 15
+    },
+    {
+        "id":"3",
+        "title": "Produit 3",
+        "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.",
+        "price": 30
+    }
+]

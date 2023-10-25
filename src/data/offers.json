@@ -1,0 +1,20 @@
+[
+    {
+        "image": "https://res.cloudinary.com/dslilw3b5/image/upload/v1698143320/vrac/landingPage/_0bb93ee7-8044-44fe-b26f-6dc018b471f3-transformed_o8mdfx.png",
+        "title": "Light, Fast & Powerful 1",
+        "text1": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus",
+        "text2": "mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim."
+    },
+    {
+        "image": "https://res.cloudinary.com/dslilw3b5/image/upload/v1698143364/vrac/landingPage/_863cf6fb-e3da-4248-ad0a-e18733688632_ai1iyy.jpg",
+        "title": "Light, Fast & Powerful 2",
+        "text1": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus",
+        "text2": "mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim."
+    },
+    {
+        "image": "https://res.cloudinary.com/dslilw3b5/image/upload/v1698143517/vrac/landingPage/_0e2790cd-e362-4385-b021-ba10338a6e2f_btpwac.jpg",
+        "title": "Light, Fast & Powerful 3",
+        "text1": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus",
+        "text2": "mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim."
+    }
+]

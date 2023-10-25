@@ -1,0 +1,101 @@
+.footer {
+    padding: 0 10%;
+    background-color: #E7ECFF;
+    height: 300px;
+
+    &__top {
+        display: flex;
+        padding: 10vh 0 5vh 0;
+        border-bottom: 1px solid #CDD1D4;
+        justify-content: space-between;
+
+        @media (max-width: 768px) {
+            flex-direction: column;
+        }
+
+        h1,
+        p {
+            width: 100%;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 22px;
+            color: #37447E;
+
+            @media (max-width: 768px) {
+                margin: 20px 0;
+            }
+        }
+
+        p {
+            color: #939EA4;
+            font-size: 14px;
+
+            @media (max-width: 768px) {
+                text-align: center;
+            }
+        }
+
+        &-contactBtn {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+
+            @media (max-width: 768px) {
+                justify-content: center;
+            }
+
+            a {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #111B47;
+                color: #FFFFFF;
+                width: 110px;
+                height: 26px;
+                border-radius: 2px;
+                border: none;
+                text-decoration: none;
+                font-size: 12px;
+            }
+        }
+    }
+
+    &__bottom {
+        display: flex;
+        padding: 3vh 0;
+        justify-content: space-between;
+
+        &-navbar {
+            display: flex;
+            gap: 10%;
+            align-items: center;
+            width: 100%;
+
+            .navbar {
+                &__item {
+                    list-style: none;
+
+                    a {
+                        text-decoration: none;
+                        color: #505F98;
+                    }
+                }
+            }
+        }
+
+        &-social {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            width: 100%;
+            gap: 5%;
+
+            a {
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+}
